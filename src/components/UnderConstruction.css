@@ -1,0 +1,47 @@
+.under-construction {
+  position: relative;
+  z-index: 1; /* Above the waves */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.message-box {
+  background: rgba(0, 0, 0, 0.6); /* Transparent dark box */
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+
+
+.emoji {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.message-box h1 {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.message-box p {
+  color: #666;
+  font-size: 1rem;
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
